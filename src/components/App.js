@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Count: {count}</h1>
+      <h1>C{count}</h1>
 
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
